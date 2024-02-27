@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #33333300;
+    font-size: 25px;
+    margin-top: 50px;
+    float: right;
+    border-bottom: 5px solid #E6B738;
+    margin-right: 35px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', bold;
+}
+
+.menu-horizontal>li:hover {
+    background-color: #E6B738
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding-bottom: 100px;
+        /* Ajusta el valor según sea necesario para dispositivos móviles */
+    }
+
+    nav {
+        font-size: 18px;
+        /* Ajusta el tamaño de fuente según sea necesario para dispositivos móviles */
+        margin-top: 20px;
+        /* Ajusta el margen superior según sea necesario para dispositivos móviles */
+        margin-right: 10px;
+        /* Ajusta el margen derecho según sea necesario para dispositivos móviles */
+        margin-left: 10px;
+        /* Ajusta el margen izquierdo según sea necesario para dispositivos móviles */
+    }
+
+    .menu-horizontal>li>a {
+        padding: 10px 15px;
+        /* Ajusta el padding según sea necesario para dispositivos móviles */
+    }
+}
+
+*, 
+*::before,
+*::after
+{
+  box-sizing: border-box;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+main 
+{
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section 
+{
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+
+section h1 {
+	text-align: center;
+	font-size: 4rem;
+	font-family: sans-serif;
+	display: block;
+  }
+  
+  .no-parallax {
+	background-color: #529db4;
+	z-index: 999;
+  }
+  
+  .parallax h1 {
+	width: 60%;
+	font-size: 2rem;
+  }
+  
+  .parallax::after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translateZ(-1px) scale(1.5);
+	background-size: 100%;
+	z-index: -1;
+  }
+  
+  .bg::after {
+	background: url("../img/PaginaPrincipal.jpeg");
+	background-size: cover;
+  }
+  
+  @media screen and (min-width: 768px) {
+	section h1 {
+	  font-size: 90px;
+	  margin-bottom: 90px;
+	}
+  
+	.parallax h1 {
+	  font-size: 4rem;
+	}
+  }

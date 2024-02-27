@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Quicksand";
+}
+
+html {
+  scroll-behavior: smooth;
+  transition-duration: 1s; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url(../img/imgFondo3.png);
+  background-size: cover;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  border-bottom: 5px solid #c4a13f;
+  background-color: beige; /* Agrega un fondo de color al nav */
+}
+
+.titulo {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  font-family: "Merriweather Sans";
+  font-size: 70px;
+  font-style: italic;
+  color: #c4a13f;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.bandera_arg {
+  width: 100%;
+  max-width: 3000px;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  z-index: 0;
+  border: none;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  border-bottom: 5px solid #c4a13f;
+  font-family: "Merriweather Sans";
+  background-color: beige; /* Agrega un fondo de color al nav */
+}
+.Subtitulo div p {
+  font-family: "Quicksand";
+  text-align: center; /* Centra el texto horizontalmente */
+  margin: 0 auto; /* Centra el texto verticalmente */
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  border-bottom: 5px solid #c4a13f;
+  font-family: "Merriweather Sans";
+  background-color: rgba(0, 0, 0, 0.536); /* Agrega un fondo de color al nav */
+  color: white;
+}
+.nav .menu-horizontal a{
+  font-size: 15px;
+  font-family: "Quicksand", bold;
+  color: white;
+  text-align: center;
+  display: flex;
+
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-horizontal li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menu-horizontal li:hover {
+  background-color: #c4a13f;
+}
+
+.Subtitulo {
+  width: auto;
+  display: inline;
+  text-decoration: underline;
+  color: #c4a13f;
+  background-color: rgba(59, 56, 14, 0.426);
+}
+
+#cuerpo_pagina {
+  padding: 10px 10px;
+  color: white;
+  background-color: #00000094;
+  font-size: 20px;
+
+}
+
+h2 {
+  font-family: "Merriweather Sans";
+  font-size: 60pt;
+  color: #c4a13f;
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 1px; /* Ajusta la altura de la línea según sea necesario */
+  background-color: #ffffff; /* Color de fondo de la línea */
+  border: none; /* Elimina el borde */
+  margin: 20px 50vh;
+}
+
+footer {
+  margin: 10px 10px;
+}
+
+footer div {
+  text-align: right;
+}
+
+footer div a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sub-trayectoria{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.partidos {
+  text-align: center;
+  display: flex;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+.titulo {
+  font-size: 90px;
+  /* Ajusta el tamaño de fuente según sea necesario */
+  position: absolute;
+  top: 50%;
+  font-family: "Merriweather Sans";
+  font-size: 70px;
+  font-style: italic;
+  color: #c4a13f;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.bandera_arg {
+  width: 100%;
+  max-width: 3000px;
+  /* Ajusta el tamaño máximo de la bandera según sea necesario */
+  max-height: 100px;
+  /* Ajusta el tamaño máximo vertical de la bandera según sea necesario */
+  display: block;
+  margin: 0 auto;
+  z-index: 0;
+  border: none;
+  /* Eliminar el borde si lo tenía */
+  box-shadow: none;
+}
+
+.nav {
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 500px;
+  /* Agrega un margen izquierdo automático para mover el nav a la derecha */
+  margin-right: 450px;
+  font-size: 12px;
+  border-bottom: 5px solid #c4a13f;
+  font-family: "Merriweather Sans";
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-horizontal li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.menu-horizontal li:hover {
+  background-color: #c4a13f;
+}
+
+.Subtitulo {
+  width: auto;
+  display: inline;
+  text-decoration: underline;
+}
+
+#cuerpo_pagina {
+  padding: 10px 10px;
+}
+
+h2 {
+  font-family: "Merriweather Sans";
+  font-size: 30pt;
+  color: #c4a13f;
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 2px; /* Ajusta la altura de la línea según sea necesario */
+  background-color: #ffffff; /* Color de fondo de la línea */
+  border: none; /* Elimina el borde */
+  margin: 35px 50vh;
+}
+
+.sub-trayectoria{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.partidos {
+  text-align: center;
+  display: flex;
+}
+.partidos img {
+  width: 33.5%;
+  height: auto;
+}
+
+.partidos img.borde-negro {
+  border-right: 3px solid rgb(255, 255, 255); 
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.subtitulo .reglamento{
+  font-family: "Quicksand";
+  text-align: center; /* Centra el texto horizontalmente */
+}
+.tabla {
+  text-align: center;
+}
+
+.final {
+  text-align: center;
+}
+
+
+.tabla {
+  text-align: center;
+}
+
+.final {
+  text-align: center;
+}
+
+.titulares {
+  display: flex;
+}
+
+.Lista_jugadores {
+  font-size: 25pt;
+  margin-right: 150px;
+  margin-left: 520px;
+}
+
+.Lista_jugadores ul li{
+  color: white;
+}
+
+.equipo img{
+  border-radius: 10%;
+  border: solid 1px black;
+  width: 130%;
+}
+
+.h2_DT {
+  margin-bottom: 20pt;
+}
+
+.director_tecnico {
+  display: flex
+}
+
+.DT_img {
+  margin-left: 20%;
+}
+
+.DT_img img {
+  border-radius: 10%;
+  border: 3px solid #c4a13f;
+}
+
+.DT_texto{
+  margin-right: auto;
+  padding-left: 10pt;
+  height: auto;
+  width: 70%;
+}
+
+.DT_texto p{
+  text-align: justify;
+}
+
+.volver-arriba {
+  border: 3px solid rgba(196, 161, 64, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 50%);
+  position: fixed;
+  bottom: 2px; 
+  right: 20px; 
+  z-index: 9999;
+  font-weight: bold;
+}
+
+.volver-arriba a{
+  
+  color: white;
+  text-decoration: none;
+}
+
+
+.h2_botaOro {
+  margin-bottom: 20pt;
+}
+
+.botaOro {
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.botaOro_img {
+  margin-left: 17%;
+}
+
+.botaOro_img img {
+  border-radius: 10%;
+  border: 3px solid #c4a13f;
+}
+
+.BotaOro_parrafo{
+  width: 50%;
+  height: auto;
+  margin-left: 25pt;
+  margin-right: auto;
+}
+
+.BotaOro_parrafo p {
+  text-align: justify;
+}
+
+#maximo_goleador {
+  font-weight: bold;
+  font-size: 38pt;
+  text-align: left;
+}
+
+.h2_reglamento {
+  margin-bottom: 10pt;
+}
+
+.reglament {
+  text-align: justify;
+}
+
+.reglamento_texto {
+  margin: auto 10px;
+}
